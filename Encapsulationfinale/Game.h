@@ -11,7 +11,7 @@ private:
 public:
     Game(std::string title);
     void inputDetails() override;
-    int getAgeLimit() const { return ageLimit; } // Ajoutez cette ligne
+    int getAgeLimit() const { return ageLimit; }
 };
 
 #endif
